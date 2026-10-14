@@ -128,3 +128,30 @@ footer a{
     font-weight: bolder;
     text-decoration: none;
 }
+@media screen and (max-width: 600px) {
+    header {
+        padding-top: 100px;
+        padding-bottom: 25px;
+    }
+    header h1 {
+        font-size: 2.2em;
+    }
+    header p {
+        padding: 0 15px;
+    }
+    nav {
+        position: static;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 5px;
+    }
+    nav a {
+        padding: 10px;
+        font-size: 0.85em;
+    }
+    main {
+        min-width: 0;
+        padding: 20px;
+    }
+}
