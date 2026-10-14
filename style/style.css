@@ -42,25 +42,22 @@ header p{
     max-width: 600px;
     margin:auto;
 }
-nav{
+nav {
     color: var(--cor2);
     font-family: var(--fonte-secundaria);
-    padding: 10px;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 10;
+    padding: 10px 20px;
     display: flex;
-    justify-content:flex-end;
-    padding-right: 20px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 5px;
+    box-sizing: border-box;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: var(--cor2);
-    padding: 20px;
-    text-align:center;
+    padding: 12px;
+    text-align: center;
 }
 nav a:hover{
     background-color: var(--cor1);
@@ -130,26 +127,30 @@ footer a{
 }
 @media screen and (max-width: 600px) {
     header {
-        padding-top: 100px;
+        padding-top: 20px;
         padding-bottom: 25px;
     }
+
     header h1 {
         font-size: 2.2em;
+        margin-top: 15px;
     }
+
     header p {
         padding: 0 15px;
     }
+
     nav {
-        position: static;
         justify-content: center;
-        flex-wrap: wrap;
         padding: 5px;
-        gap: 5px;
+        gap: 2px;
     }
+
     nav a {
-        padding: 10px;
-        font-size: 0.85em;
+        padding: 10px 8px;
+        font-size: 0.8em;
     }
+
     main {
         min-width: 0;
         padding: 20px;
