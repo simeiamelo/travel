@@ -59,8 +59,9 @@ nav{
 nav a{
     text-decoration: none;
     color: var(--cor2);
-    padding: 12px;
+    padding: 20px;
     text-align:center;
+
 }
 nav a:hover{
     background-color: var(--cor1);
