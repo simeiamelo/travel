@@ -45,7 +45,7 @@ header p{
 nav{
     color: var(--cor2);
     font-family: var(--fonte-secundaria);
-    padding: 10px 20px;
+    padding: 10px 10px;
     position: absolute;
     top: 10px;
     left: 0;
